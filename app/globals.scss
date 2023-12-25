@@ -16,6 +16,10 @@
   }
 }
 
+//IMPORTS
+
+@import "../pages/Hero/Hero.scss";
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -29,3 +33,8 @@ body {
     }
 }
 
+
+.Nav{
+  z-index: 10000;
+  position: sticky;
+}
