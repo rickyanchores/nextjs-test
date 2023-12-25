@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({image,title,description}) => {
   return (
     <div className='Card mt-5 w-90 p-5'>
-        <img src="https://beebom.com/wp-content/uploads/2022/11/gojo-and-geto-friendship.jpg?w=750&quality=75" alt="card-image" />
+        <img src={image} alt="card-image" />
         <div className="card-text">
-            <h1 className="card-title text-orange-600 font-bold">Gojo and Geto</h1>
-            <p className='card-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eveniet!</p>
+            <h1 className="card-title text-orange-600 font-bold">{title}</h1>
+            <p className='card-description'>{description}</p>
         </div>
         
     </div>
