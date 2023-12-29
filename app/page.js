@@ -1,4 +1,5 @@
 import Card from '@/components/Card/Card'
+import Grid from '@/components/Grid/Grid'
 import Nav from '@/components/Nav/Nav'
 import About from '@/pages/About/About'
 import Chapter from '@/pages/Chapter/Chapter'
@@ -12,6 +13,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <About />
+      <Grid />
       <Gallery />
       <Chapter />
     </main>
